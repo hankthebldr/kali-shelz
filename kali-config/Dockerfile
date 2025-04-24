@@ -1,2 +1,3 @@
-FROM busybox:latest
+FROM kali-linux/kali-linux-rolling
+CMD "apt install kali-headless"
 
